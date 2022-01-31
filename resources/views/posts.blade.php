@@ -9,7 +9,21 @@
 </head>
 <body>
     <article>
-        <h1>My First Post</h1>
+        <h1><a href="/post">My First Post</a></h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis esse aspernatur quod repellendus velit ipsam laboriosam corrupti, soluta similique quibusdam officiis? Ipsam magni unde maiores sit nesciunt. Amet, unde dicta?
+        </p>
+    </article>
+
+    <article>
+        <h1><a href="/post">My second Post</a></h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis esse aspernatur quod repellendus velit ipsam laboriosam corrupti, soluta similique quibusdam officiis? Ipsam magni unde maiores sit nesciunt. Amet, unde dicta?
+        </p>
+    </article>
+
+    <article>
+        <h1><a href="/post">My third Post</a></h1>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis esse aspernatur quod repellendus velit ipsam laboriosam corrupti, soluta similique quibusdam officiis? Ipsam magni unde maiores sit nesciunt. Amet, unde dicta?
         </p>
