@@ -23,12 +23,11 @@ Route::get('/posts/{post}', function ($slug) {
     
     if(!file_exists($path)) {
         return redirect('/');
-        // abort(404);
     }
-    
-    $post = file_get_contents($path);
 
-    return view('post', [
-        'post' => $post
-    ]);
+    $post = cache()->remember("posts.{$slug}", 1200, function() use($path) {
+        return file_get_contents($path);
+    });
+    
+    return view('post', [ 'post' => $post ]);
 })->where('post', '[A-z_\-]+');
